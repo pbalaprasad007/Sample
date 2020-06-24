@@ -1,0 +1,17 @@
+<?php
+
+
+function octo_theme_suggestions_views_view_unformatted_alter(&$suggestions, $variables)
+{
+	$suggestions[] = 'views_view_unformatted__' . $variables['view']->id();
+}
+
+
+function octo_theme_suggestions_views_view_fields_alter(&$suggestions, $variables)
+{
+	$view = $variables['view'];
+	$suggestions[] = 'views_view_fields__' . $view->id();
+	$suggestions[] = 'views_view_fields__' . $view->id() . '__' . $view->current_display;
+}
+
+?>

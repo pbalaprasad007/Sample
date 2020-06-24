@@ -1,0 +1,31 @@
+name: Octo theme
+description: 'Simple Octo theme'
+type: theme
+core: 8.x 
+base theme: false
+
+libraries:
+  - octo/bootstrap
+  - octo/webfonts
+  - octo/font-awesome
+  - octo/base
+
+regions:
+  header_top: 'Header Top'
+  header_bottom: 'Header bottom'
+  help: 'Help'
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  secondary_menu: 'Secondary Menu'
+  page_top: 'Page Top'
+  page_bottom: 'Page bottom'
+  highlighted: 'Highlighted'
+  carousel_banner: 'Carousel Banner'
+  services: 'Services'  
+  content: 'Content'  
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
+  footer_top: Footer Top
+  footer_bottom: 'Footer Bottom'
+  
+ 
